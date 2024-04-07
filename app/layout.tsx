@@ -1,6 +1,6 @@
-import { ThemeProvider } from "@/components/theme-provider";
-import localFont from "next/font/local";
-import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider"
+import localFont from "next/font/local"
+import "./globals.css"
 
 const sfPRO = localFont({
   src: [
@@ -36,17 +36,18 @@ const sfPRO = localFont({
     },
   ],
   variable: "--font-sfpro",
-});
+})
 
 export const metadata = {
-  title: "makrdev",
-  description: "A create video tutorials for Next.js, Supabase and OpenAI.",
-};
+  title: "Harpreet Singh Portfolio",
+  description:
+    "A Full Stack Web3 Developer, wanna be DevRel. Arbitrum Ambassador. Won EthIndia 2023 and EthTaipei 2024. Scholar at Ora Protocol and Arweave India Cohort #1",
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html className="h-full" lang="en" suppressHydrationWarning>
@@ -56,5 +57,5 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
-  );
+  )
 }

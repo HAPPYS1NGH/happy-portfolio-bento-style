@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Button from "../button";
-import Icon from "../icon";
-import { GridItemInterface } from "./../../config/site-config";
+import Link from "next/link"
+import Button from "../button"
+import Icon from "../icon"
+import { GridItemInterface } from "./../../config/site-config"
 
 const Social = ({ item }: { item: GridItemInterface }) => {
   return (
@@ -40,7 +40,7 @@ const Social = ({ item }: { item: GridItemInterface }) => {
         )}
       </div>
     </Link>
-  );
-};
+  )
+}
 
-export default Social;
+export default Social
